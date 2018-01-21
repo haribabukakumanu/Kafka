@@ -1,0 +1,77 @@
+{
+  "type": "record",
+  "name": "MyClass",
+  "namespace": "com.test.avro",
+  "fields": [
+    {
+      "name": "policyID",
+      "type": "long"
+    },
+    {
+      "name": "statecode",
+      "type": "string"
+    }, {
+      "name": "county",
+      "type": "string"
+    },
+    {
+      "name": "eq_site_limit",
+      "type": "float"
+    },
+    {
+      "name": "hu_site_limit",
+      "type": "float"
+    },
+    {
+      "name": "fl_site_limit",
+      "type": "float"
+    },
+    {
+      "name": "fr_site_limit",
+      "type": "float"
+    },
+     {
+      "name": "tiv_2011",
+      "type": "float"
+    },
+    {
+      "name": "tiv_2012",
+      "type": "float"
+    },
+    {
+      "name": "eq_site_deductible",
+      "type": "float"
+    },
+     {
+      "name": "hu_site_deductible",
+      "type": "float"
+    },
+    {
+      "name": "fl_site_deductible",
+      "type": "float"
+    },
+    {
+      "name": "fr_site_deductible",
+      "type": "float"
+    },
+    {
+      "name": "point_latitude",
+      "type": "float"
+    },
+    {
+      "name": "point_longitude",
+      "type": "float"
+    },{
+      "name": "line",
+      "type": "string"
+    },
+    {
+      "name": "construction",
+      "type": "string"
+    },
+    {
+      "name": "point_granularity",
+      "type": "long"
+    }
+  ]
+}
